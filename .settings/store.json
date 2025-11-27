@@ -1,0 +1,319 @@
+{
+  "currentPromptId": "0",
+  "giteaInstanceType": "gitea.com",
+  "githubImageAccessToken": "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",
+  "outlinePosition": "right",
+  "chatLanguage": "中文",
+  "gitlabUsername": "",
+  "noteSidebarVisible": true,
+  "giteaAutoSync": "disabled",
+  "useImageRepo": true,
+  "giteaCustomSyncRepo": "",
+  "previewTheme": "github",
+  "gitlabAccessToken": "",
+  "primaryModel": "b5903cc4-3405-4fed-8b6c-6d46a3b94843",
+  "markDescModel": "b5903cc4-3405-4fed-8b6c-6d46a3b94843",
+  "fileSidebarVisible": true,
+  "githubCustomSyncRepo": "LoviNote",
+  "audioModel": "",
+  "pin": false,
+  "activeFilePath": "C/c语言point.md",
+  "placeholder": "note-gen-chat",
+  "jsdelivr": true,
+  "primaryImageMethod": "ocr",
+  "autoUpdate": true,
+  "shortcuts": [
+    {
+      "key": "openWindow",
+      "value": "CommandOrControl+Shift+W"
+    },
+    {
+      "key": "quickRecordText",
+      "value": "CommandOrControl+Shift+T"
+    }
+  ],
+  "chatToolbarConfig": [
+    {
+      "enabled": true,
+      "id": "modelSelect",
+      "order": 0
+    },
+    {
+      "enabled": true,
+      "id": "promptSelect",
+      "order": 1
+    },
+    {
+      "enabled": true,
+      "id": "chatLanguage",
+      "order": 2
+    },
+    {
+      "enabled": true,
+      "id": "chatLink",
+      "order": 3
+    },
+    {
+      "enabled": true,
+      "id": "fileLink",
+      "order": 4
+    },
+    {
+      "enabled": true,
+      "id": "mcpButton",
+      "order": 5
+    },
+    {
+      "enabled": true,
+      "id": "ragSwitch",
+      "order": 6
+    },
+    {
+      "enabled": true,
+      "id": "chatPlaceholder",
+      "order": 7
+    },
+    {
+      "enabled": true,
+      "id": "clipboardMonitor",
+      "order": 8
+    },
+    {
+      "enabled": true,
+      "id": "clearContext",
+      "order": 9
+    },
+    {
+      "enabled": true,
+      "id": "clearChat",
+      "order": 10
+    }
+  ],
+  "gitlabAutoSync": "disabled",
+  "aiModelList": [
+    {
+      "apiKey": "sk-qkvfpxenkuijxxlvvobcutiiizbvqiavcbeursgzguafezaj",
+      "apiKeyUrl": "https://cloud.siliconflow.cn/i/O2ciJeZw",
+      "baseURL": "https://api.siliconflow.cn/v1",
+      "icon": "https://s2.loli.net/2025/09/09/D8Al2raSvewN5xn.jpg",
+      "key": "9ee41b50-ed55-4a80-8784-2d488e8d2625",
+      "modelType": "chat",
+      "models": [
+        {
+          "enableStream": true,
+          "id": "b5903cc4-3405-4fed-8b6c-6d46a3b94843",
+          "model": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+          "modelType": "chat",
+          "temperature": 0.7,
+          "topP": 1
+        }
+      ],
+      "title": "SiliconFlow"
+    },
+    {
+      "apiKey": "sk-qkvfpxenkuijxxlvvobcutiiizbvqiavcbeursgzguafezaj",
+      "apiKeyUrl": "https://cloud.siliconflow.cn/i/O2ciJeZw",
+      "baseURL": "https://api.siliconflow.cn/v1",
+      "icon": "https://s2.loli.net/2025/09/09/D8Al2raSvewN5xn.jpg",
+      "key": "9b12b375-5b8a-434e-949e-4e2e4835b748",
+      "modelType": "chat",
+      "models": [
+        {
+          "enableStream": true,
+          "id": "fe0ef1ee-c42a-4623-be0c-72d518e06af6",
+          "model": "BAAI/bge-m3",
+          "modelType": "embedding",
+          "temperature": 0.7,
+          "topP": 1
+        }
+      ],
+      "title": "SiliconFlow"
+    },
+    {
+      "apiKey": "sk-1eaNsBvrfrF4hpwdo6AiQlFzcEtZK7GUpBlOcg03Dm3xunbQ",
+      "baseURL": "https://api.notegen.top/v1",
+      "key": "note-gen-free",
+      "models": [
+        {
+          "enableStream": true,
+          "id": "note-gen-chat",
+          "model": "Qwen/Qwen3-8B",
+          "modelType": "chat",
+          "temperature": 0.7,
+          "topP": 1
+        },
+        {
+          "id": "note-gen-embedding",
+          "model": "BAAI/bge-m3",
+          "modelType": "embedding",
+          "temperature": 0.7,
+          "topP": 1
+        },
+        {
+          "enableStream": true,
+          "id": "note-gen-vlm",
+          "model": "THUDM/GLM-4.1V-9B-Thinking",
+          "modelType": "chat",
+          "temperature": 0.7,
+          "topP": 1
+        }
+      ],
+      "title": "NoteGen Free"
+    },
+    {
+      "apiKey": "sk-1eaNsBvrfrF4hpwdo6AiQlFzcEtZK7GUpBlOcg03Dm3xunbQ",
+      "baseURL": "https://api.notegen.top/v1",
+      "key": "note-gen-limited",
+      "models": [
+        {
+          "enableStream": true,
+          "id": "note-gen-limited-Qwen3-235B-A22B",
+          "model": "Qwen3-235B-A22B",
+          "modelType": "chat",
+          "temperature": 0.7,
+          "topP": 1
+        },
+        {
+          "enableStream": true,
+          "id": "note-gen-limited-DeepSeek-V3.2-Exp",
+          "model": "DeepSeek-V3.2-Exp",
+          "modelType": "chat",
+          "temperature": 0.7,
+          "topP": 1
+        },
+        {
+          "enableStream": true,
+          "id": "note-gen-limited-GLM-4_5",
+          "model": "GLM-4_5",
+          "modelType": "chat",
+          "temperature": 0.7,
+          "topP": 1
+        }
+      ],
+      "title": "NoteGen Limited"
+    },
+    {
+      "apiKey": "sk-qkvfpxenkuijxxlvvobcutiiizbvqiavcbeursgzguafezaj",
+      "apiKeyUrl": "https://cloud.siliconflow.cn/i/O2ciJeZw",
+      "baseURL": "https://api.siliconflow.cn/v1",
+      "icon": "https://s2.loli.net/2025/09/09/D8Al2raSvewN5xn.jpg",
+      "key": "f012445f-e997-411c-9023-82bb49fe2d3f",
+      "modelType": "chat",
+      "models": [
+        {
+          "enableStream": true,
+          "id": "cd388c3c-443c-4130-adf9-767874f2f56d",
+          "model": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+          "modelType": "chat",
+          "temperature": 0.7,
+          "topP": 1
+        }
+      ],
+      "title": "SiliconFlow (Copy)"
+    }
+  ],
+  "lastSettingPage": "dev",
+  "translate": "note-gen-chat",
+  "language": "简体中文",
+  "imageMethodModel": "note-gen-vlm",
+  "currentPage": "/core/article",
+  "tesseractList": "eng,chi_sim",
+  "recordToolbarConfig": [
+    {
+      "enabled": true,
+      "id": "text",
+      "order": 0
+    },
+    {
+      "enabled": true,
+      "id": "recording",
+      "order": 1
+    },
+    {
+      "enabled": true,
+      "id": "scan",
+      "order": 2
+    },
+    {
+      "enabled": true,
+      "id": "image",
+      "order": 3
+    },
+    {
+      "enabled": true,
+      "id": "link",
+      "order": 4
+    },
+    {
+      "enabled": true,
+      "id": "file",
+      "order": 5
+    }
+  ],
+  "giteaCustomUrl": "",
+  "codeTheme": "github",
+  "giteeAccessToken": "",
+  "collapsibleList": [
+    "PythonLn.assets",
+    "SpringWeb全栈开发再学习",
+    "YKDJavaP2/Java基础知识.assets",
+    "蓝桥杯实验班笔记",
+    "数模基础.assets",
+    "数学",
+    "YKD额外",
+    "assets",
+    "PSLn.assets",
+    "C"
+  ],
+  "giteeCustomSyncRepo": "",
+  "accessToken": "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",
+  "githubUsername": "Lovi-Dzy",
+  "placeholderModel": "b5903cc4-3405-4fed-8b6c-6d46a3b94843",
+  "sttModel": "",
+  "giteeAutoSync": "disabled",
+  "currentTagId": 1,
+  "gitlabCustomUrl": "",
+  "version": "0.22.3",
+  "autoSync": "60",
+  "gitlabInstanceType": "gitlab.com",
+  "githubCustomImageRepo": "",
+  "markDesc": "note-gen-chat",
+  "pageView": "immersiveView",
+  "enableOutline": true,
+  "githubImageUsername": "Lovi-Dzy",
+  "templateList": [
+    {
+      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
+      "id": "0",
+      "range": "all",
+      "status": true,
+      "title": "笔记"
+    },
+    {
+      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
+      "id": "1",
+      "range": "week",
+      "status": true,
+      "title": "周报"
+    }
+  ],
+  "giteaUsername": "",
+  "darkMode": "system",
+  "currentAi": "",
+  "primaryBackupMethod": "github",
+  "rerankingModel": "",
+  "translateModel": "b5903cc4-3405-4fed-8b6c-6d46a3b94843",
+  "giteaAccessToken": "",
+  "embeddingModel": "note-gen-embedding",
+  "promptList": [
+    {
+      "content": "请你扮演一个笔记软件的智能助手，可以参考记录内容，使用 markdown 语法，回答用户的问题。",
+      "id": "0",
+      "isDefault": true,
+      "title": "写作助手"
+    }
+  ],
+  "gitlabCustomSyncRepo": "",
+  "note_locale": "中文",
+  "enableLineNumber": true
+}
